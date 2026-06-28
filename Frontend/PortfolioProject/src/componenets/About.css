@@ -1,0 +1,167 @@
+
+.about{
+
+
+    padding:90px 60px;
+
+
+    background:#020617;
+
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+
+    align-items:center;
+
+
+    gap:50px;
+
+
+}
+
+
+.about-content{
+
+
+    max-width:600px;
+
+
+}
+.about-content h1{
+
+
+    font-size:45px;
+
+
+    color:white;
+
+
+    margin-bottom:25px;
+
+
+}
+
+.about-content p{
+
+
+    font-size:18px;
+
+
+    line-height:1.8;
+
+
+    color:#d1d5db;
+
+
+}
+
+.about-cards{
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:20px;
+
+
+}
+
+
+.about-card{
+
+
+    width:280px;
+
+
+    padding:25px;
+
+
+    border-radius:20px;
+
+
+    background:rgba(255,255,255,0.08);
+
+
+    backdrop-filter:blur(10px);
+
+
+    border:1px solid rgba(255,255,255,0.1);
+
+
+    transition:.3s;
+
+
+}
+
+.about-card:hover{
+
+
+    transform:translateX(-10px);
+
+
+    box-shadow:0 0 25px #38bdf8;
+
+
+}
+
+.about-card h2{
+
+
+    color:#38bdf8;
+
+
+}
+
+.about-card p{
+
+
+    color:#d1d5db;
+
+
+    margin-top:10px;
+
+
+}
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+
+    
+
+@media(max-width:768px){
+
+
+.about{
+
+    flex-direction:column;
+
+    padding:70px 25px;
+
+    text-align:center;
+
+}
+
+
+.about-content h1{
+
+    font-size:32px;
+
+}
+
+
+.about-card{
+
+    width:100%;
+
+}
+
+
+}
