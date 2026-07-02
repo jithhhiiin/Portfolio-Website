@@ -122,9 +122,9 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 CORS_ALLOWED_ORIGINS = [
+    "https://portfolio-website-9tq2.vercel.app",
     "https://portfolio-website-snowy-kappa-28.vercel.app",
 ]
-
 
 MEDIA_URL = "/media/"
 
