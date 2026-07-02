@@ -124,16 +124,10 @@ function Projects() {
 
 
 
-              <img
-
-
-                src={`baseURL: "https://portfolio-backend-4kie.onrender.com/"${project.image}`}
-
-
-                alt={project.title}
-
-
-              />
+            <img
+  src={`https://portfolio-backend-4kie.onrender.com${project.image}`}
+  alt={project.title}
+/>
 
 
 
