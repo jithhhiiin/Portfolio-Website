@@ -121,6 +121,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+ALLOWED_HOSTS = [
+    "portfolio-backend-4kie.onrender.com",
+]
+
 CORS_ALLOWED_ORIGINS = [
     "https://portfolio-website-9tq2.vercel.app",
     "https://portfolio-website-snowy-kappa-28.vercel.app",
