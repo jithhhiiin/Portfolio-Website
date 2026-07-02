@@ -28,10 +28,19 @@ function Hero() {
           I build modern web applications using django and react
         </p>
 
-        <a href="#projects">View Projects</a>
-          
-      
+        <div className="hero-buttons">
+          <a href="#projects" className="btn-primary">
+            View Projects
+          </a>
 
+          <a
+            href="/JITHIN_BIJU_Resume.pdf"
+            download
+            className="btn-secondary"
+          >
+            Download CV
+          </a>
+        </div>
       </motion.div>
 
       <div className='hero-image'>
