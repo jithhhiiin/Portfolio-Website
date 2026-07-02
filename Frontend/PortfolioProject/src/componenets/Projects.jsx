@@ -127,7 +127,7 @@ function Projects() {
               <img
 
 
-                src={`http://127.0.0.1:8000${project.image}`}
+                src={`baseURL: "https://portfolio-backend-4kie.onrender.com/"${project.image}`}
 
 
                 alt={project.title}
