@@ -28,9 +28,9 @@ function Hero() {
           I build modern web applications using django and react
         </p>
 
-        <button>
-          View Projects
-        </button>
+        <a href="#projects">View Projects</a>
+          
+      
 
       </motion.div>
 

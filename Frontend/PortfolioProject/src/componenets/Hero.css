@@ -64,7 +64,9 @@
 
 
 
-.hero button{
+.hero a{
+
+    text-decoration: none;
 
 
     margin-top:30px;
@@ -101,7 +103,7 @@
 }
 
 
-.hero button:hover{
+.hero a:hover{
 
 
     transform:scale(1.08);
