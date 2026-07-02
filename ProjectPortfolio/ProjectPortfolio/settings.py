@@ -127,7 +127,8 @@ ALLOWED_HOSTS = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://portfolio-website-9tq2.vercel.app",
-    "https://portfolio-website-snowy-kappa-28.vercel.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
 
 MEDIA_URL = "/media/"
@@ -139,3 +140,7 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+print(">>> SETTINGS LOADED <<<")
+print(CORS_ALLOWED_ORIGINS)
